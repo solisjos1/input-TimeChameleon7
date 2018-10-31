@@ -24,7 +24,7 @@ public class Input {
           Scanner scan = new Scanner(new File("stuff.txt"));
           
           // Create an Array
-          String[] stringArr = new String[5];
+          String[] stringArray = new String[5];
           
           // Take input line-by-line and store it in arr[]
           stringArr[0] = scan.nextLine();
